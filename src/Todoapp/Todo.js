@@ -20,7 +20,9 @@ const Todo = () => {
   return (
     <>
     <div className='todo-container'>
-        <div className='header'>☰MY TODO☰</div>
+        <div className='header'>♡ MY TODO</div>
+        <hr />
+      
         <div className='add-task'>
             <AddTask addTask ={addTask}/>
         </div>
